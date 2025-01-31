@@ -123,9 +123,9 @@ async function signAndFinalize3(fromWallet: any, toAddress: string, fnToEncode: 
         maxFee = fee;
       }
     }
-    gasPrice = maxFee * 2n;
+    gasPrice = maxFee * 10n;
   } catch (e) {
-    gasPrice = await web3.eth.getGasPrice() * 2n;
+    gasPrice = await web3.eth.getGasPrice() * 10n;
   }
 
   const rawTX = {
