@@ -26,10 +26,10 @@ and put it to the root of the project.
 ## Distribute rewards
 To distribute rewards run the following command:
 ```bash
-yarn distribute-rewards --month <month>
+yarn distribute-rewards --month <month> --csvPath "rewards-data.csv"
 ```
 where `<month>` is the month for which the rewards should be distributed
-(e.g. `yarn distribute-rewards --month 2`).
+(e.g. `yarn distribute-rewards --month 2 --csvPath "rewards.csv"`).
 
 ### Custom CSV path
 One can also set custom path to the CSV file which will override the default one (`rewards-data.csv`):
