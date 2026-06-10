@@ -24,8 +24,8 @@
     "typescript": "^4.1.5"
   },
   "resolutions": {
-    "js-yaml": "^4.1.1",
-    "minimatch": "^5.1.8",
-    "serialize-javascript": "^7.0.5"
+    "js-yaml": "4.1.1",
+    "minimatch": "5.1.8",
+    "serialize-javascript": "7.0.5"
   }
 }
