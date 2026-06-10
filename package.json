@@ -26,6 +26,7 @@
   "resolutions": {
     "js-yaml": "4.1.1",
     "minimatch": "5.1.8",
+    "shell-quote": "1.8.4",
     "serialize-javascript": "7.0.5"
   }
 }
